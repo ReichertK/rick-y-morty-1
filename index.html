@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rick and Morty Pokedex</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section class="presentation">
+		<h1>Rick y Morty Pokedex</h1>
+		<p>Encuentra tu personaje Favorito!</p>
+	</section>
+
+	<section class="search">
+		<h2>Search for Characters</h2>
+		<form id="search-form">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter a name...">
+			<label for="status">Status:</label>
+			<select id="status" name="status">
+				<option value="">All</option>
+				<option value="alive">Alive</option>
+				<option value="dead">Dead</option>
+				<option value="unknown">Unknown</option>
+			</select>
+			<button type="submit">Search</button>
+		</form>
+	</section>
+
+	<section class="results">
+		<!-- Results will be dynamically generated with JavaScript -->
+	</section>
+
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Presentation section */
+  .presentation {
+    background-color: #f7ebeb;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .presentation h1 {
+    font-size: 48px;
+    color: #202020;
+    margin-bottom: 10px;
+  }
+  
+  .presentation p {
+    font-size: 24px;
+    color: #707070;
+  }
+  
+  /* Search section */
+  .search {
+    background-color: #fafafa;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .search h2 {
+    font-size: 36px;
+    color: #202020;
+    margin-bottom: 20px;
+  }
+  
+  .search label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #707070;
+  }
+  
+  .search input[type="text"],
+  .search select {
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .search button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .search button:hover {
+    background-color: #484848;
+  }
+  
+  /* Results section */
+  .results {
+    margin-top: 20px;
+  }
